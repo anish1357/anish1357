@@ -20,25 +20,6 @@
 
 ---
 
-### 🚀 Highlight: Agentic Document Review (in production)
-
-An event-driven, multi-agent service that reviews loan documents with a human in the loop.
-
-```
-Reviewer portal (MFE) ──▶ Backend ──▶ Kafka ──▶ Agent service (Google ADK, sequential)
-                                                   │
-        ┌──────────────┬───────────────┬───────────┴──────┬────────────────────┐
-        ▼              ▼               ▼                  ▼                    ▼
-  Template agent   Loan-data agent  Document agent   Validation agent   Controls agent
-  (MongoDB)        (core systems)   (ECM AI service) (LLM: doc vs data) (HITL task)
-```
-
-- **Per-step sub-agents** with their own prompts and tools, for audit visibility and easy debugging of failed steps
-- **State persisted to MongoDB** after every sub-agent via callbacks, so runs are resumable and traceable
-- **Template-driven evals**: users build and tune review templates (questions, prompts, data points) before going live
-- **Impact:** review time cut from **~30 min to 5–10 min**, at a fraction of a cent per review
-
----
 
 ### 🛠️ Tech stack
 
