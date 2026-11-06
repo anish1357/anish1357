@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Aniswar Gupta 👋</h1>
-<h3 align="center">Backend Software Engineer · Distributed Systems · Agentic AI</h3>
+<h3 align="center">Senior Software Engineer · Backend · Distributed Systems · Agentic AI</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/aniswar-gupta"><img src="https://img.shields.io/badge/LinkedIn-aniswar--gupta-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
@@ -11,7 +11,7 @@
 
 ### 🧑‍💻 About me
 
-- 🏦 **Software Engineer at Wells Fargo** (Home Lending), previously at **Deutsche Bank**
+- 🏦 **Senior Software Engineer at Wells Fargo** (Home Lending), previously at **Deutsche Bank**
 - ⚙️ **3+ years** building high-throughput, event-driven backend systems with **Java, Spring Boot, Kafka** and microservices
 - 🤖 Building **production agentic AI**: multi-agent pipelines with **Google ADK**, LangChain, RAG and MCP-based agents
 - 🏆 **Spotlight Award**, Home Lending Division at Wells Fargo (also nominated for the Trailblazer Award)
